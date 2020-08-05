@@ -4,7 +4,7 @@ public class SelectionSort
 	{
 			for(int i = 0; i < inputArrayLength - 1; i++)
 			{
-				int minIndex=i;
+				int minIndex = i;
 				for(int j = i+1; j < inputArrayLength; j++)
 				{
 					if(inputArray[j] < inputArray[minIndex])
